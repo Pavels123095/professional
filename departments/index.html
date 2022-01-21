@@ -19,13 +19,13 @@
       <div class="header__top">
         <div class="container">
           <div class="header__top-navigation">
-            <a href="#" class="header__top-navigation-link">Об институте</a>
+            <a href="/about/" class="header__top-navigation-link">Об институте</a>
             <a href="#" class="header__top-navigation-link">Лицензии</a>
-            <a href="#" class="header__top-navigation-link">Клиенты</a>
-            <a href="#" class="header__top-navigation-link">Специалисты</a>
-            <a href="#" class="header__top-navigation-link">Вакансии</a>
-            <a href="#" class="header__top-navigation-link">Новости</a>
-            <a href="#" class="header__top-navigation-link">Блог</a>
+            <a href="/clients/" class="header__top-navigation-link">Клиенты</a>
+            <a href="/employees/" class="header__top-navigation-link">Специалисты</a>
+            <a href="/vacancies/" class="header__top-navigation-link">Вакансии</a>
+            <a href="/news/" class="header__top-navigation-link">Новости</a>
+            <a href="/blog/" class="header__top-navigation-link">Блог</a>
           </div>
           <div class="header__top-address">
             109129, г. Москва, 8-я улица Текстильщиков, д. 8, (2,3 этаж)
@@ -54,17 +54,24 @@
             <div class="header__email-notation">Написать сообщение</div>
           </div>
           <a href="#" class="header__btn">Дистанционное обучение</a>
+          <div class="header__burger">
+            <svg width="30" height="18"viewBox="0 0 30 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="30" height="3" rx="1.5" fill="black" />
+              <rect y="7.5" width="30" height="3" rx="1.5" fill="black" />
+              <rect y="15" width="30" height="3" rx="1.5" fill="black" />
+            </svg>
+          </div>
         </div>
       </div>
       <nav class="navigation">
         <div class="container">
           <div class="navigation__links">
-            <a href="#" class="navigation__link">Департаменты</a>
-            <a href="#" class="navigation__link">Обучение</a>
-            <a href="#" class="navigation__link">Курсы</a>
-            <a href="#" class="navigation__link">Отзывы</a>
-            <a href="#" class="navigation__link">Расписание</a>
-            <a href="#" class="navigation__link">Контакты</a>
+            <a href="/departments/" class="navigation__link">Департаменты</a>
+            <a href="/education/" class="navigation__link">Обучение</a>
+            <a href="/courses/" class="navigation__link">Курсы</a>
+            <a href="/reviews/" class="navigation__link">Отзывы</a>
+            <a href="/timetable/" class="navigation__link">Расписание</a>
+            <a href="/contacts/" class="navigation__link">Контакты</a>
           </div>
           <div class="header__search">
             <input type="text" placeholder="Поиск..." />
@@ -87,6 +94,107 @@
           </div>
         </div>
       </nav>
+      <div class="mobile-menu">
+        <div class="mobile-menu__top">
+          <a href="/" class="header__logo">
+            <img src="/assets/images/header-logo.png" alt="" />
+          </a>
+          <div class="mobile-menu__close">
+            <svg
+              width="25"
+              height="25"
+              viewBox="0 0 25 25"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                x="3"
+                y="1"
+                width="30"
+                height="3"
+                rx="1.5"
+                transform="rotate(45 3 1)"
+                fill="black"
+              />
+              <rect
+                x="1"
+                y="22"
+                width="30"
+                height="3"
+                rx="1.5"
+                transform="rotate(-45 1 22)"
+                fill="black"
+              />
+            </svg>
+          </div>
+        </div>
+        <div class="mobile-menu__wrap">
+          <div class="mobile-menu__nav">
+            <div class="header__search">
+              <input type="text" placeholder="Поиск..." />
+              <a href="#" class="header__search-btn">
+                <svg
+                  width="17"
+                  height="17"
+                  viewBox="0 0 17 17"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M5.89318 0.0463812C2.80057 0.467563 0.392484 2.9321 0.0256561 6.05153C0.00131821 6.25872 -0.0062521 6.63388 0.00530259 7.06422C0.0295741 7.96944 0.14874 8.566 0.465465 9.36789C1.21005 11.2532 2.75502 12.7091 4.67921 13.3386C5.41051 13.5778 6.02058 13.6731 6.82602 13.674C8.25436 13.6755 9.50103 13.298 10.6837 12.5058L11.029 12.2745L13.3233 14.5666C15.0842 16.3258 15.6524 16.8743 15.7671 16.926C15.9738 17.0192 16.3262 17.0194 16.5182 16.9265C16.6813 16.8476 16.8817 16.6388 16.949 16.4776C17.0189 16.3105 17.0076 15.9456 16.9269 15.7664C16.8753 15.6515 16.3298 15.0866 14.5669 13.3222L12.2741 11.0276L12.4872 10.7154C13.0884 9.83489 13.4878 8.79261 13.6249 7.74695C13.6891 7.25707 13.6895 6.41467 13.6258 5.93163C13.3154 3.58072 11.802 1.545 9.65118 0.585235C9.02732 0.306893 8.4549 0.143832 7.74854 0.0433265C7.3333 -0.0157418 6.33741 -0.0141149 5.89318 0.0463812ZM7.84815 1.81441C8.88757 2.0399 9.68186 2.47379 10.4407 3.23066C10.921 3.70971 11.1826 4.07146 11.4502 4.62672C12.5494 6.90754 11.7859 9.68667 9.67432 11.0903C8.8547 11.6352 8.01692 11.9024 7.01807 11.9375C5.49846 11.991 4.19029 11.4524 3.11355 10.3301C2.46154 9.65051 2.02541 8.81732 1.80531 7.83082C1.72154 7.45539 1.70039 6.50256 1.76656 6.08553C2.01303 4.53239 2.90998 3.2204 4.28439 2.40287C4.77775 2.10939 5.44836 1.87325 6.08838 1.7676C6.47483 1.70385 7.45914 1.73001 7.84815 1.81441Z"
+                    fill="white"
+                  />
+                </svg>
+              </a>
+            </div>
+            <div class="mobile-menu__nav-links">
+              <a href="/departments/" class="mobile-menu__nav-link"
+                >Департаменты</a
+              >
+              <a href="/education/" class="mobile-menu__nav-link">Обучение</a>
+              <a href="/courses/" class="mobile-menu__nav-link">Курсы</a>
+              <a href="/reviews/" class="mobile-menu__nav-link">Отзывы</a>
+              <a href="/timetable/" class="mobile-menu__nav-link">Расписание</a>
+              <a href="/contacts/" class="mobile-menu__nav-link">Контакты</a>
+            </div>
+          </div>
+          <div class="mobile-menu__contacts">
+            <div class="header__number">
+              <a href="tel:+7 (495) 212-14-49" class="header__number-phone"
+                >+7 (495) 212-14-49</a
+              >
+              <div class="header__number-notation">
+                Заказать обратный звонок
+              </div>
+            </div>
+            <div class="header__email">
+              <a href="tel:+7 (495) 212-14-49" class="header__email-post"
+                >zakaz@professional-ipk.ru</a
+              >
+              <div class="header__email-notation">Написать сообщение</div>
+            </div>
+            <a href="#" class="header__btn">Дистанционное обучение</a>
+          </div>
+          <div class="mobile-menu__other">
+            <div class="header__top-address">
+              109129, г. Москва, 8-я улица Текстильщиков, д. 8, (2,3 этаж)
+            </div>
+            <div class="mobile-menu__other-links">
+              <a href="/about/" class="mobile-menu__other-link">Об институте</a>
+              <a href="#" class="mobile-menu__other-link">Лицензии</a>
+              <a href="/clients/" class="mobile-menu__other-link">Клиенты</a>
+              <a href="/employees/" class="mobile-menu__other-link"
+                >Специалисты</a
+              >
+              <a href="/vacancies/" class="mobile-menu__other-link">Вакансии</a>
+              <a href="/news/" class="mobile-menu__other-link">Новости</a>
+              <a href="/blog/" class="mobile-menu__other-link">Блог</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
     <main class="main">
       <div class="bread">
@@ -132,7 +240,7 @@
                 </p>
               </div>
             </a>
-            <div class="departments__item-wrap">
+            <div class="departments__item-wrap departments__item-wrap-max-height">
               <a href="#" class="departments__item departments__item--3">
                 <div class="departments__item-image">
                   <img src="/assets/images/departments-image-4.jpg" alt="" />
@@ -158,7 +266,7 @@
                 </div>
               </a>
             </div>
-            <div class="departments__item-wrap">
+            <div class="departments__item-wrap departments__item-wrap-max-height">
               <a href="#" class="departments__item departments__item--1">
                 <div class="departments__item-image">
                   <img src="/assets/images/departments-image-6.jpg" alt="" />
@@ -184,7 +292,7 @@
                 </div>
               </a>
             </div>
-            <div class="departments__item-wrap">
+            <div class="departments__item-wrap departments__item-wrap-max-height">
               <a href="#" class="departments__item departments__item--1">
                 <div class="departments__item-image">
                   <img src="/assets/images/departments-image-8.jpg" alt="" />
@@ -210,7 +318,7 @@
                 </div>
               </a>
             </div>
-            <div class="departments__item-wrap">
+            <div class="departments__item-wrap departments__item-wrap-max-height">
               <a href="#" class="departments__item departments__item--3">
                 <div class="departments__item-image">
                   <img src="/assets/images/departments-image-11.jpg" alt="" />

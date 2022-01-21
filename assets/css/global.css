@@ -1885,6 +1885,26 @@ h1 {
   .slide-prev-btn {
     left: 0;
   }
+  .departments__wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    flex-wrap: wrap;
+  }
+  .departments__item-wrap .departments__item-wrap-max-height {
+    max-width: calc(50% - 30px);
+    width: 100%;
+  }
+  .departments__item--1 {
+    max-width: 300px;
+    max-height: 300px;
+  }
+  .departments__item--2 {
+    max-width: 600px;
+  }
+  .departments__item {
+    width: 100%;
+  }
 }
 @media (max-width: 950px) {
   .courses__item {
@@ -1903,6 +1923,25 @@ h1 {
     margin-top: 20px;
     margin-left: 0;
   }
+  .departments__wrap .departments__item-wrap-max-height {
+    max-width: calc(50% - 30px);
+    width: 100%;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-flow: column wrap;
+  }
+  .departments__wrap .departments__item-wrap-max-height .departments__item {
+      width: 100%;
+      max-width: 100%;
+  }
+  .departments__item {
+    max-width: calc(50% - 30px);
+    width: 100%;
+  }
+  .departments__item--2 {
+    width: 100%;
+    max-width: 100%;
+  }
 }
 @media (max-width: 768px) {
   .certificates {
@@ -1919,6 +1958,10 @@ h1 {
   }
   .courses {
     margin-top: 30px;
+  }
+  .departments__item--2 {
+    max-width: 100%;
+    width: 100%;
   }
 }
 @media (max-width: 650px) {
@@ -1948,6 +1991,34 @@ h1 {
   }
 }
 @media (max-width: 475px) {
+  .departments__wrap {
+    align-items: center;
+    justify-content: center;
+  }
+  .departments__wrap .departments__item-text {
+    width: 100%;
+  }
+  .departments__wrap .departments__item-text span,
+  .departments__wrap .departments__item-text ul,
+  .departments__wrap .departments__item-text ul li {
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+  .departments__item {
+    width: 100%;
+    max-width: 320px;
+  }
+  .departments__wrap .departments__item-wrap-max-height {
+    width: 100%;
+    max-width: 100%;
+    flex-flow: row wrap;
+  }
   .footer__top {
     align-items: flex-start;
   }
@@ -2007,4 +2078,8 @@ h1 {
   .pagination__link {
     margin-right: 5px;
   }
+  
+}
+@media (max-width: 768px) {
+
 }
