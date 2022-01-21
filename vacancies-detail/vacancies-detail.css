@@ -1,0 +1,38 @@
+.vacancies-detail {
+  padding-top: 20px;
+}
+.vacancies-detail__wrap {
+  padding: 50px;
+  background: #fff;
+}
+.vacancies-detail__items {
+  margin-top: 30px;
+}
+.vacancies-detail__item {
+  margin-bottom: 15px;
+  max-width: 600px;
+}
+.vacancies-detail__item:last-of-type {
+  margin-bottom: 0;
+}
+.vacancies-detail__item-title {
+  font-size: 16px;
+  line-height: 19px;
+  color: #000;
+  font-weight: 700;
+}
+.vacancies-detail__item-text {
+  font-size: 16px;
+  line-height: 19px;
+  color: #000;
+}
+.vacancies-detail__item ul {
+  margin: 0;
+  padding-inline-start: 25px;
+}
+.feedback__form-input {
+  max-width: 284px;
+}
+.feedback__form-btn {
+  width: 284px;
+}

@@ -1,0 +1,56 @@
+.employees-detail {
+  margin-top: 20px;
+}
+.employees-detail__wrap {
+  padding: 35px 50px 50px;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+.employees-detail__info {
+  margin-top: 25px;
+  max-width: 435px;
+}
+.employees-detail__info-title {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 700;
+  color: #000;
+}
+.employees-detail__info-text {
+  font-size: 14px;
+  line-height: 22px;
+  color: #000;
+}
+.employees-detail__info-text a {
+  display: block;
+}
+.employees-detail__info-item {
+  margin-bottom: 20px;
+}
+.employees-detail__info-item:last-of-type {
+  margin-bottom: 0;
+}
+.employees-detail__right {
+  max-width: 442px;
+  width: 100%;
+  height: 430px;
+}
+.courses {
+  margin-top: 70px;
+}
+.courses .all-btn {
+  margin: 30px auto 0;
+}
+.feedback__form-input {
+  width: 390px;
+}
+.feedback__form-btn {
+  width: 180px;
+}
+.feedback__form-wrap {
+  padding: 0 70px;
+}
+.feedback__policy {
+  margin-left: 90px;
+}

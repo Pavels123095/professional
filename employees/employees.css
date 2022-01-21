@@ -1,0 +1,15 @@
+.employees {
+  margin-top: 20px;
+  padding-bottom: 70px;
+}
+.employees__items {
+  width: calc(100% + 30px);
+  margin: 30px -30px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.employees__item {
+  width: calc(25% - 30px);
+  margin-left: 30px;
+  margin-bottom: 30px;
+}

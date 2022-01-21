@@ -1,0 +1,13 @@
+.departments {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.departments__wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+.courses {
+  padding-bottom: 70px;
+}

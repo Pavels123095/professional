@@ -1,0 +1,40 @@
+.education {
+  margin-top: 20px;
+}
+.education__wrap {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.education__wrap .departments__item--3 {
+  height: 100%;
+}
+.education__wrap .departments__item-wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  flex-direction: row;
+}
+.education__wrap .departments__item-inside {
+  flex-grow: 1;
+  margin-left: 15px;
+}
+.education__wrap .departments__item-inside-top {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  width: 100%;
+}
+.education__wrap .departments__item-inside-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.education__wrap .departments__item--3 .departments__item-image {
+  height: 80%;
+}
+.courses {
+  margin-top: 50px;
+  padding-bottom: 70px;
+}

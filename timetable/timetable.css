@@ -1,0 +1,118 @@
+.timetable {
+  margin-top: 20px;
+  padding-bottom: 50px;
+}
+.plan-slider {
+  position: relative;
+}
+.timetable__wrap {
+  background: #fff;
+  padding: 10px 30px 30px;
+  margin-top: 15px;
+}
+.plan-slider .swiper-slide {
+}
+.timetable__slider {
+  position: relative;
+}
+.timetable__top-wrap {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 175px;
+}
+.timetable__month {
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
+  font-weight: 700;
+}
+.timetable__designations {
+  display: flex;
+}
+.timetable__designations-item {
+  display: flex;
+  align-items: center;
+  margin-right: 60px;
+}
+.timetable__designations-item:last-of-type {
+  margin-right: 0;
+}
+.timetable__designations-item-right {
+  font-size: 16px;
+  line-height: 19px;
+  color: #000;
+  margin-left: 5px;
+}
+.timetable__designations-item-left {
+  width: 25px;
+  height: 25px;
+}
+.timetable__designations-item-left--blue {
+  background: #3f68d2;
+}
+.timetable__designations-item-left--red {
+  background: #e02d58;
+}
+.timetable__designations-item-left--green {
+  background: #30e02d;
+}
+.timetable__tabel {
+  margin-top: 30px;
+  border-spacing: 0;
+}
+
+.timetable__tabel td {
+  border: 1px solid #c4c4c4;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000;
+  font-weight: 700;
+}
+.timetable__tabel td span {
+  box-shadow: 0 -1px 0 0 #c4c4c4;
+}
+.timetable__tabel .first-td {
+  width: 175px;
+  text-align: left;
+  font-weight: normal;
+  border-left: none;
+}
+.timetable__tabel .first-td--title {
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
+  font-weight: 700;
+
+  padding: 15px 0;
+}
+.timetable__tabel tr:first-of-type td {
+  border-top: none;
+}
+.timetable__tabel .wed {
+  background: #ffe6e6;
+}
+.timetable__tabel .bg-red {
+  background: #e02d58;
+}
+.timetable__tabel .bg-blue {
+  background: #3f68d2;
+}
+.timetable__tabel .bg-green {
+  background: #30e02d;
+}
+.slide-prev-btn {
+  top: 65%;
+  left: -20px;
+}
+.slide-next-btn {
+  top: 65%;
+  right: -20px;
+}
+.practice-slider .timetable__tabel tr:first-of-type td {
+  width: 100px;
+}

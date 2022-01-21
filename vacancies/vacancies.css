@@ -1,0 +1,59 @@
+.vacancies {
+  margin-top: 20px;
+  padding-bottom: 70px;
+}
+.vacancies__items {
+  margin-top: 30px;
+}
+.vacancies__item {
+  padding: 35px 35px 40px;
+  background: #fff;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.vacancies__item:last-of-type {
+  margin-bottom: 0;
+}
+.vacancies__item-left {
+  max-width: 500px;
+}
+.vacancies__item-title {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 600;
+  color: #000;
+}
+.vacancies__item-text {
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 17px;
+  color: #5f5f5f;
+}
+.vacancies__item-right {
+  display: flex;
+}
+.vacancies__item-btn {
+  width: 207px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 5px;
+}
+.vacancies__item-btn--more {
+  border: 2px solid #3468b1;
+  color: #3468b1;
+}
+.vacancies__item-btn--respond {
+  background: #3468b1;
+  color: #fff;
+  margin-left: 35px;
+}
